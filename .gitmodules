@@ -1,9 +1,9 @@
 [submodule "qunexaccept"]
 	path = qunexaccept
-	url = https://demsarjure@bitbucket.org/oriadev/qunexaccept.git
+	url = git@bitbucket.org:oriadev/qunexaccept.git
 [submodule "qunexdevops"]
 	path = qunexdevops
-	url = https://demsarjure@bitbucket.org/oriadev/qunexdevops.git
+	url = git@bitbucket.org:oriadev/qunexdevops.git
 [submodule "qunexcontainer"]
 	path = qunexcontainer
-	url = https://demsarjure@bitbucket.org/oriadev/qunexcontainer.git
+	url = git@bitbucket.org:oriadev/qunexcontainer.git
