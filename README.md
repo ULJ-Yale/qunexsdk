@@ -70,3 +70,4 @@ Change Log
 * 0.1 Initial pre-alpha release.
 * 0.1.1 [qunexdevops] Change in the environment setup.
 * 0.1.2 [qunexdevops] Adjusted scripts and add one to create new environment.
+* 0.1.3 [qunexdevops] Added updated script for creation of own clone and branch
