@@ -71,3 +71,4 @@ Change Log
 * 0.1.1 [qunexdevops] Change in the environment setup.
 * 0.1.2 [qunexdevops] Adjusted scripts and add one to create new environment.
 * 0.1.3 [qunexdevops] Added updated script for creation of own clone and branch
+* 0.1.4 [qunexdevops] Fixed a bug in status reporting
