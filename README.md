@@ -2,8 +2,8 @@ README File for Qu|Nex SDK repository
 =====================================
 
 The repository consists of three submodules:
-* qunexaccept: acceptance test for testing new versions of Qu|Nex before releases.
-* qunexcontainer: code for building Docker and singularity Qu|Nex containers.
+* qunexaccept: acceptance tests for Qu|Nex suite releases.
+* qunexcontainer: code for building Qu|Nex suite containers.
 * qunexdevops: storage of Qu|Nex development related code, notes and materials.
 
 
@@ -13,8 +13,8 @@ Installation and setup
 ### Step 1. Clone all Qu|Nex SDK repositories and initiate submodules.
 
 * cd to Qu|Nex $TOOLS folder
-* Clone main repository: `git clone git@bitbucket.org:oriadev/qunex-sdk.git`
-* Initiate submodules from inside cloned repo folder: `git submodule init`
+* Clone the main repository: `git clone git@bitbucket.org:oriadev/qunex-sdk.git`
+* Initiate submodules from inside the cloned repository's folder: `git submodule init`
 * Pull and update all submodules: `git pull --recurse-submodules && git submodule update --recursive`
 * Checkout master branch for each submodule: `git submodule foreach git checkout master`
 * Update submodules to latest commit on the branch: `git submodule foreach git pull origin master`
@@ -25,28 +25,28 @@ Installation and setup
 $TOOLS/qunex-sdk/qunexdevops/environment/qunex_setdevenv.sh
 ```
 
-Please not that this script will archive the existing .bash_profile and replace it with a new one.
+Please note that this script will archive the existing .bash_profile and replace it with a new one.
 
 
-### Step 3. Prepare your environments
+### Step 3. Prepare your development folders
 
-Generate folder `$TOOLS/qunexdev`
+We use the Gitflow branching model (https://nvie.com/posts/a-successful-git-branching-model/, https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). In Gitflow one should never develop directly on the master branch, all development work should take place at the individual `feature` branches or at the `develop` branch. To set this up follow the instructions below.
 
-In that folder create clones of Qu|Nex that you would work on
+Generate the folder `$TOOLS/qunexdev` and repeat Step 1 into this folder, but this time around checkout the `develop` branch.
 
-Prepare a list of environments and store it in `$TOOLS/qunexdev/environments.txt`
+Generate the folder `$TOOLS/qunexfeatures`, you can create new feature branches or checkout existing ones by using the same procedure as for the `master` and `develop` branches. To enable automated switching between feature branches you should repare a list of environments and store it in `$TOOLS/qunexdev/features.txt`
 
 each line should have three entries:
 
 ```
-<name of the environment> <folder within $TOOLS where the clone is located> <branch to use>
+<name of the feature> <folder within $TOOLS where the clone is located> <branch to use>
 ```
 
-### Step 4. Use the following functions to manage environments
+### Step 4. Use the following functions to manage features
 
-qxreportenv -> to show the current Qu|Nex clone and environment
-qxshowenvs  -> to show the available environments
-qxsetenv    -> to set the desired environment
+qxreportfeature -> to show the currently active Qu|Nex feature
+qxshowfeatures  -> to show the available features
+qxsetfeature    -> to set the desired feature
 
 
 Qu|Nex SDK Versioning
