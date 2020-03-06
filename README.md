@@ -6,6 +6,14 @@ The repository consists of three submodules:
 * qunexcontainer: code for building Qu|Nex suite containers.
 * qunexdevops: storage of Qu|Nex development related code, notes and materials.
 
+Versioning
+----------
+Latest SDK version: 0.1.5
+
+Submodule versions:
+* qunexaccept: 0.1.3
+* qunexcontainer: 0.1.3
+* qunexdevop: 0.1.3
 
 Installation and setup 
 ----------------------
