@@ -8,12 +8,12 @@ The repository consists of three submodules:
 
 Versioning
 ----------
-Latest SDK version: 0.1.5
+Latest SDK version: 0.1.6
 
 Submodule versions:
 * qunexaccept: 0.1.3
-* qunexcontainer: 0.1.3
-* qunexdevop: 0.1.3
+* qunexcontainer: 0.49.12
+* qunexdevop: 0.1.4
 
 Installation and setup 
 ----------------------
@@ -82,6 +82,7 @@ is listed in the VERSION file.
 Change Log
 ----------
 
+* 0.1.6 [qunexdevops, qunexcontainer] Added openhotfix script and integrated ICAFix into the container.
 * 0.1.5 [qunexdevops] Adjustments for GitFlow 
 * 0.1.4 [qunexdevops] Fixed a bug in status reporting
 * 0.1.3 [qunexdevops] Added updated script for creation of own clone and branch
