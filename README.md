@@ -34,13 +34,14 @@ Latest SDK version: 0.2.0
 Submodule versions:
 * qunexaccept: 0.2.0
 * qunexcontainer: 0.50.2
-* qunexdevop: 0.1.5
+* qunexdevops: 0.1.5
 
 
 Change Log
 ----------
 
 * 0.2.0 [qunexaccept] Complete rework of the acceptance tests repository.
+* 0.1.6 [qunexdevops, qunexcontainer] Added openhotfix script and integrated ICAFix into the container.
 * 0.1.5 [qunexdevops] Adjustments for GitFlow 
 * 0.1.4 [qunexdevops] Fixed a bug in status reporting
 * 0.1.3 [qunexdevops] Added updated script for creation of own clone and branch
