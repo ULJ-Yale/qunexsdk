@@ -1,79 +1,47 @@
-README File for Qu|Nex SDK repository
-=====================================
+# README file for Quantitative Neuroimaging Environment & ToolboX SDK (Qu|Nex SDK)
+
+This repository contains the software development kit (SDK) for the Qu|Nex suite.
+The intentions of this SDK is to provide a consistent workflow across research
+teams developing the Qu|Nex suite and to kickstart researchers interested in
+integrating their own pipelines into Qu|Nex.
 
 The repository consists of three submodules:
 * qunexaccept: acceptance tests for Qu|Nex suite releases.
 * qunexcontainer: code for building Qu|Nex suite containers.
 * qunexdevops: storage of Qu|Nex development related code, notes and materials.
 
-
-Installation and setup 
-----------------------
-
-### Step 1. Clone all Qu|Nex SDK repositories and initiate submodules.
-
-* cd to Qu|Nex $TOOLS folder
-* Clone the main repository: `git clone git@bitbucket.org:oriadev/qunex-sdk.git`
-* Initiate submodules from inside the cloned repository's folder: `git submodule init`
-* Pull and update all submodules: `git pull --recurse-submodules && git submodule update --recursive`
-* Checkout master branch for each submodule: `git submodule foreach git checkout master`
-* Update submodules to latest commit on the branch: `git submodule foreach git pull origin master`
-
-### Step 2. Configure the Qu|Nex development environment by running the following script
-
-```
-$TOOLS/qunexsdk/qunexdevops/environment/qunex_setdevenv.sh
-```
-
-Please note that this script will archive the existing .bash_profile and replace it with a new one.
+The Qu|Nex code is is co-developed and co-maintained by the 
+[Mind and Brain Lab led by Grega Repovs](http://psy.ff.uni-lj.si/mblab/en) 
+and the [Anticevic Lab](http://anticeviclab.yale.edu/).
 
 
-### Step 3. Prepare your development folders
+Quick links
+-----------
 
-We use the GitFlow branching model (https://nvie.com/posts/a-successful-git-branching-model/, https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). In GitFlow one should never develop directly on the master branch, all development work should take place at the individual `feature` branches or at the `develop` branch. To set this up follow the instructions below.
-
-Generate the folder `$TOOLS/qunexdev` and repeat Step 1 into this folder, but this time around checkout the `develop` branch.
-
-Generate the folder `$TOOLS/qunexfeatures`, you can create new feature branches or checkout existing ones by using the same procedure as for the `master` and `develop` branches. To enable automated switching between feature branches you should repare a list of environments and store it in `$TOOLS/qunexfeatures/environments.txt`
-
-each line should have three entries:
-
-```
-<name of the feature> <folder within $TOOLS where the clone is located> <branch to use>
-```
-
-The creation of feature clone and its registration in `$TOOLS/qunexfeatures/environments.txt` is automated using:
-
-```
-$TOOLS/qunexsdk/qunexdevops/environment/qunex_openfeature.sh
-```
+* [Website](http://qunex.yale.edu/)
+* [Qu|Nex Wiki](https://bitbucket.org/oriadev/qunex/wiki/Home)
+* [Qu|Nex SDK Wiki](https://bitbucket.org/oriadev/qunexsdk/wiki/Home)
+* [Qu|Nex quick start](https://bitbucket.org/oriadev/qunex/wiki/Overview/QuickStart.md)
+* [Qu|Nex container deployment](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
+* [Installing from source and dependencies](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
 
 
-### Step 4. Use the following functions to manage features
+Versioning
+----------
 
-* qxreportenv -> to show the current Qu|Nex clone and environment
-* qxshowenvs  -> to show the available environments
-* qxsetenv    -> to set the desired environment
+Latest SDK version: 0.2.0
 
+Submodule versions:
+* qunexaccept: 0.2.0
+* qunexcontainer: 0.50.2
+* qunexdevops: 0.1.5
 
-Qu|Nex SDK Versioning
----------------------
-
-Qu|Nex SDK follows the semantic versioning system (https://semver.org/). 
-Given a version number MAJOR.MINOR.PATCH, the increments reflect:
-
-* MAJOR version when backwards incompatible API changes are made,
-* MINOR version when new functionality is added in a backwards-compatible manner, and
-* PATCH version when backwards-compatible bug fixes are made.
-
-The version history and change log is listed below. The Qu|Nex SDK version of the current release 
-is listed in the VERSION file.
-
-* `qunex --version`
 
 Change Log
 ----------
 
+* 0.2.0 [qunexaccept] Complete rework of the acceptance tests repository.
+* 0.1.6 [qunexdevops, qunexcontainer] Added openhotfix script and integrated ICAFix into the container.
 * 0.1.5 [qunexdevops] Adjustments for GitFlow 
 * 0.1.4 [qunexdevops] Fixed a bug in status reporting
 * 0.1.3 [qunexdevops] Added updated script for creation of own clone and branch
