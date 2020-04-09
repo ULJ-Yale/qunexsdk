@@ -32,9 +32,10 @@ Versioning
 Latest SDK version: 0.2.1
 
 Submodule versions:
+
 * qunexaccept: 0.2.1
 * qunexcontainer: 0.50.2
-* qunexdevops: 0.1.6
+* qunexdevops: 0.1.6 
 
 
 Change Log
