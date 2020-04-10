@@ -29,17 +29,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.2.1
+Latest SDK version: 0.2.2
 
 Submodule versions:
+
 * qunexaccept: 0.2.1
 * qunexcontainer: 0.50.2
-* qunexdevops: 0.1.6
+* qunexdevops: 0.1.7
 
 
 Change Log
 ----------
 
+* 0.2.2 [qunexdevops] Acceptance tests and DevOps scripts are now accessible in the environment.
 * 0.2.1 [qunexaccept qunexdevops] Opening a hotfix now stores the environment in the correct environment.txt, removed a typo from the HCPLS_StepwiseTests.sh.
 * 0.2.0 [qunexaccept] Complete rework of the acceptance tests repository.
 * 0.1.6 [qunexdevops, qunexcontainer] Added openhotfix script and integrated ICAFix into the container.
