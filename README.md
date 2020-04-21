@@ -29,18 +29,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.2.4
+Latest SDK version: 0.2.5
 
 Submodule versions:
 
 * qunexaccept: 0.2.3
 * qunexcontainer: 0.50.2
-* qunexdevops: 0.2.0
+* qunexdevops: 0.2.1
 
 
 Change Log
 ----------
 
+* 0.2.5 [qunexdevops] Releases are now based on the develop branch not master.
 * 0.2.4 [qunexdevops] Added scripts for openning new SDK features and hotfixes and suite releases.
 * 0.2.3 [qunexaccept] Acceptance tests for HCP MSMAll pipelines and a unit test for hcp_suffix.
 * 0.2.2 [qunexdevops] Acceptance tests and DevOps scripts are now accessible in the environment.
