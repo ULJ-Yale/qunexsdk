@@ -29,11 +29,11 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.2.2
+Latest SDK version: 0.2.3
 
 Submodule versions:
 
-* qunexaccept: 0.2.1
+* qunexaccept: 0.2.3
 * qunexcontainer: 0.50.2
 * qunexdevops: 0.1.7
 
@@ -41,6 +41,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.2.2 [qunexdevops] Acceptance tests for HCP MSMAll pipelines and a unit test for hcp_suffix.
 * 0.2.2 [qunexdevops] Acceptance tests and DevOps scripts are now accessible in the environment.
 * 0.2.1 [qunexaccept qunexdevops] Opening a hotfix now stores the environment in the correct environment.txt, removed a typo from the HCPLS_StepwiseTests.sh.
 * 0.2.0 [qunexaccept] Complete rework of the acceptance tests repository.
