@@ -29,11 +29,11 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.2.5
+Latest SDK version: 0.2.6
 
 Submodule versions:
 
-* qunexaccept: 0.2.3
+* qunexaccept: 0.2.4
 * qunexcontainer: 0.50.2
 * qunexdevops: 0.2.1
 
@@ -41,6 +41,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.2.6 [qunexaccept] Upgraded automated RunTurnkey tests and added MSMAll test to stepwise testing script.
 * 0.2.5 [qunexdevops] Releases are now based on the develop branch not master.
 * 0.2.4 [qunexdevops] Added scripts for openning new SDK features and hotfixes and suite releases.
 * 0.2.3 [qunexaccept] Acceptance tests for HCP MSMAll pipelines and a unit test for hcp_suffix.
