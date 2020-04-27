@@ -29,18 +29,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.2.7
+Latest SDK version: 0.2.8
 
 Submodule versions:
 
 * qunexaccept: 0.2.5
-* qunexcontainer: 0.50.2
+* qunexcontainer: 0.51.0
 * qunexdevops: 0.2.1
 
 
 Change Log
 ----------
 
+* 0.2.8 [qunexcontainer] New container release.
 * 0.2.7 [qunexaccept] Cores and threads rename to parsessions and parelements.
 * 0.2.6 [qunexaccept] Upgraded automated RunTurnkey tests and added MSMAll test to stepwise testing script.
 * 0.2.5 [qunexdevops] Releases are now based on the develop branch not master.
