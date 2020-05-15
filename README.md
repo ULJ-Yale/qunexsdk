@@ -29,18 +29,20 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.2.8
+Latest SDK version: 0.3.1
 
 Submodule versions:
 
-* qunexaccept: 0.2.5
-* qunexcontainer: 0.51.0
-* qunexdevops: 0.2.1
+* qunexaccept: 0.3.1
+* qunexcontainer: 0.51.2
+* qunexdevops: 0.2.3
 
 
 Change Log
 ----------
 
+* 0.3.1 [qunexaccept qunexcontainer qunexdevops] License updates.
+* 0.3.0 [qunexaccept qunexcontainer qunexdevops] Major rework of acceptance testing scripts, new container release, fixed a bug in hotfix opening.
 * 0.2.8 [qunexcontainer] New container release.
 * 0.2.7 [qunexaccept] Cores and threads rename to parsessions and parelements.
 * 0.2.6 [qunexaccept] Upgraded automated RunTurnkey tests and added MSMAll test to stepwise testing script.
@@ -50,7 +52,7 @@ Change Log
 * 0.2.2 [qunexdevops] Acceptance tests and DevOps scripts are now accessible in the environment.
 * 0.2.1 [qunexaccept qunexdevops] Opening a hotfix now stores the environment in the correct environment.txt, removed a typo from the HCPLS_StepwiseTests.sh.
 * 0.2.0 [qunexaccept] Complete rework of the acceptance tests repository.
-* 0.1.6 [qunexdevops, qunexcontainer] Added openhotfix script and integrated ICAFix into the container.
+* 0.1.6 [qunexdevops qunexcontainer] Added openhotfix script and integrated ICAFix into the container.
 * 0.1.5 [qunexdevops] Adjustments for GitFlow 
 * 0.1.4 [qunexdevops] Fixed a bug in status reporting
 * 0.1.3 [qunexdevops] Added updated script for creation of own clone and branch
