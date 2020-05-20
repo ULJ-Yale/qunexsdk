@@ -2,10 +2,11 @@
 
 ## License
 
-Copyright (c)
-Anticevic Lab, Yale University
-Mind & Brain Lab, University of Ljubljana
-Murray Lab, Yale University
+Copyright (c):
+
+* Anticevic Lab, Yale University
+* Mind & Brain Lab, University of Ljubljana
+* Murray Lab, Yale University
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
