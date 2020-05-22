@@ -10,9 +10,11 @@ The repository consists of three submodules:
 * qunexcontainer: code for building Qu|Nex suite containers.
 * qunexdevops: storage of Qu|Nex development related code, notes and materials.
 
-The Qu|Nex code is is co-developed and co-maintained by the 
-[Mind and Brain Lab led by Grega Repovs](http://psy.ff.uni-lj.si/mblab/en) 
-and the [Anticevic Lab](http://anticeviclab.yale.edu/).
+The Qu|Nex code is is co-developed and co-maintained by the:
+
+* [Anticevic Lab, Yale University](http://anticeviclab.yale.edu/),
+* [Mind and Brain Lab, University of Ljubljana](http://psy.ff.uni-lj.si/mblab/en),
+* [Murray Lab, Yale University](https://medicine.yale.edu/lab/murray/).
 
 
 Quick links
@@ -29,18 +31,20 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.3.1
+Latest SDK version: 0.3.3
 
 Submodule versions:
 
-* qunexaccept: 0.3.1
+* qunexaccept: 0.3.4
 * qunexcontainer: 0.51.2
-* qunexdevops: 0.2.3
+* qunexdevops: 0.2.4
 
 
 Change Log
 ----------
 
+* 0.3.3 [qunexaccept] TestRunTurnkey now enables execution of single commands.
+* 0.3.2 [qunexaccept qunexcontainer qunexdevops] READNE updates.
 * 0.3.1 [qunexaccept qunexcontainer qunexdevops] License updates.
 * 0.3.0 [qunexaccept qunexcontainer qunexdevops] Major rework of acceptance testing scripts, new container release, fixed a bug in hotfix opening.
 * 0.2.8 [qunexcontainer] New container release.
