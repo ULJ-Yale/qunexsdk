@@ -31,11 +31,11 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.3.3
+Latest SDK version: 0.4.0
 
 Submodule versions:
 
-* qunexaccept: 0.3.4
+* qunexaccept: 0.4.0
 * qunexcontainer: 0.51.2
 * qunexdevops: 0.2.4
 
@@ -43,6 +43,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.4.0 [qunexaccept] Updated all acceptance test because of the subject to session rename.
 * 0.3.3 [qunexaccept] TestRunTurnkey now enables execution of single commands.
 * 0.3.2 [qunexaccept qunexcontainer qunexdevops] READNE updates.
 * 0.3.1 [qunexaccept qunexcontainer qunexdevops] License updates.
