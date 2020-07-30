@@ -31,18 +31,21 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.4.1
+Latest SDK version: 0.5.0
 
 Submodule versions:
 
-* qunexaccept: 0.4.1
-* qunexcontainer: 0.51.2
-* qunexdevops: 0.2.4
+* qunexaccept: 0.5.0
+* qunexcontainer: 0.61.6
+* qunexdevops: 0.2.6
 
 
 Change Log
 ----------
 
+* 0.5.0 [qunexaccept] Major update to the RunTurnkey acceptance testing script, which should now work on all environments.
+* 0.4.3 [qunexaccept qunexcontainer qunexdevops] Added gitignore, qunexaccept cleanup.
+* 0.4.2 [qunexdevops] Optimized opening hotfixes so they auto checkout the hotfix branch on root repository.
 * 0.4.1 [qunexaccept] Added all and noT2w acceptance test variants for hcpls data.
 * 0.4.0 [qunexaccept] Updated all acceptance test because of the subject to session rename.
 * 0.3.3 [qunexaccept] TestRunTurnkey now enables execution of single commands.
