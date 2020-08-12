@@ -31,7 +31,7 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.1
+Latest SDK version: 0.5.2
 
 Submodule versions:
 
