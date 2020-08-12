@@ -35,7 +35,7 @@ Latest SDK version: 0.5.1
 
 Submodule versions:
 
-* qunexaccept: 0.5.2
+* qunexaccept: 0.5.3
 * qunexcontainer: 0.61.9
 * qunexdevops: 0.2.7
 
@@ -43,6 +43,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.5.2 [qunexaccept] Scheduler jobname now shows wheter we are running with container or not.
 * 0.5.1 [qunexaccept qunexcontainer qunexdevops] Scheduler is now setup the same way as with Qu|Nex, CNP support, FSL 6.0.4, Diffusion support, Optimized order of operations when opening new branches.
 * 0.5.0 [qunexaccept] Major update to the RunTurnkey acceptance testing script, which should now work on all environments.
 * 0.4.3 [qunexaccept qunexcontainer qunexdevops] Added gitignore, qunexaccept cleanup.
