@@ -31,18 +31,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.2
+Latest SDK version: 0.5.3
 
 Submodule versions:
 
-* qunexaccept: 0.5.3
-* qunexcontainer: 0.61.9
+* qunexaccept: 0.5.4
+* qunexcontainer: 0.61.13
 * qunexdevops: 0.2.7
 
 
 Change Log
 ----------
 
+* 0.5.3 [qunexaccept qunexcontainer] Acceptance tests now report repository folder, added CUDA Singularity support in the container.
 * 0.5.2 [qunexaccept] Scheduler jobname now shows wheter we are running with container or not.
 * 0.5.1 [qunexaccept qunexcontainer qunexdevops] Scheduler is now setup the same way as with Qu|Nex, CNP support, FSL 6.0.4, Diffusion support, Optimized order of operations when opening new branches.
 * 0.5.0 [qunexaccept] Major update to the RunTurnkey acceptance testing script, which should now work on all environments.
