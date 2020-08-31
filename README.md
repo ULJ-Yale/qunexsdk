@@ -43,6 +43,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.5.4 [qunexaccept qunexcontainer] ICAFIx and MSMAll test optimizations, container version update.
 * 0.5.3 [qunexaccept qunexcontainer] Acceptance tests now report repository folder, added CUDA Singularity support in the container.
 * 0.5.2 [qunexaccept] Scheduler jobname now shows wheter we are running with container or not.
 * 0.5.1 [qunexaccept qunexcontainer qunexdevops] Scheduler is now setup the same way as with Qu|Nex, CNP support, FSL 6.0.4, Diffusion support, Optimized order of operations when opening new branches.
