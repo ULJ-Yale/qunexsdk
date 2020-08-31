@@ -31,12 +31,12 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.3
+Latest SDK version: 0.5.4
 
 Submodule versions:
 
-* qunexaccept: 0.5.4
-* qunexcontainer: 0.61.13
+* qunexaccept: 0.5.5
+* qunexcontainer: 0.61.16
 * qunexdevops: 0.2.7
 
 
