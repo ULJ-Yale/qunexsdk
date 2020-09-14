@@ -35,7 +35,7 @@ Latest SDK version: 0.5.6
 
 Submodule versions:
 
-* qunexaccept: 0.5.6
+* qunexaccept: 0.5.7
 * qunexcontainer: 0.61.17
 * qunexdevops: 0.2.7
 
@@ -43,6 +43,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.5.6 [qunexaccept] Fixed the batch file for HCPYA acceptance test.
 * 0.5.5 [qunexaccept qunexcontainer] Added HCPYA dataset to acceptance tests, container version update.
 * 0.5.4 [qunexaccept qunexcontainer] ICAFIx and MSMAll test optimizations, container version update.
 * 0.5.3 [qunexaccept qunexcontainer] Acceptance tests now report repository folder, added CUDA Singularity support in the container.
