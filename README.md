@@ -31,18 +31,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.4
+Latest SDK version: 0.5.6
 
 Submodule versions:
 
-* qunexaccept: 0.5.5
-* qunexcontainer: 0.61.16
+* qunexaccept: 0.5.6
+* qunexcontainer: 0.61.17
 * qunexdevops: 0.2.7
 
 
 Change Log
 ----------
 
+* 0.5.5 [qunexaccept qunexcontainer] Added HCPYA dataset to acceptance tests, container version update.
 * 0.5.4 [qunexaccept qunexcontainer] ICAFIx and MSMAll test optimizations, container version update.
 * 0.5.3 [qunexaccept qunexcontainer] Acceptance tests now report repository folder, added CUDA Singularity support in the container.
 * 0.5.2 [qunexaccept] Scheduler jobname now shows wheter we are running with container or not.
