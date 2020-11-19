@@ -31,18 +31,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.7
+Latest SDK version: 0.5.8
 
 Submodule versions:
 
-* qunexaccept: 0.5.10
-* qunexcontainer: 0.62.3
+* qunexaccept: 0.5.11
+* qunexcontainer: 0.62.3a
 * qunexdevops: 0.2.8
 
 
 Change Log
 ----------
 
+* 0.5.8 [qunexaccept] When steps parameter in acceptance tests is set to initial, tests now work properly.
 * 0.5.7 [qunexaccept qunexcontainer qunexdevops] Dynamic branch setting when building containers, batch file optimizations, optimized process for opening new features.
 * 0.5.6 [qunexaccept] Fixed the batch file for HCPYA acceptance test.
 * 0.5.5 [qunexaccept qunexcontainer] Added HCPYA dataset to acceptance tests, container version update.
