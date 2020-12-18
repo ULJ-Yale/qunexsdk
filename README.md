@@ -1,16 +1,16 @@
-# README file for Quantitative Neuroimaging Environment & ToolboX SDK (Qu|Nex SDK)
+# README file for Quantitative Neuroimaging Environment & ToolboX SDK (QuNex SDK)
 
-This repository contains the software development kit (SDK) for the Qu|Nex suite.
+This repository contains the software development kit (SDK) for the QuNex suite.
 The intentions of this SDK is to provide a consistent workflow across research
-teams developing the Qu|Nex suite and to kickstart researchers interested in
-integrating their own pipelines into Qu|Nex.
+teams developing the QuNex suite and to kickstart researchers interested in
+integrating their own pipelines into QuNex.
 
 The repository consists of three submodules:
-* qunexaccept: acceptance tests for Qu|Nex suite releases.
-* qunexcontainer: code for building Qu|Nex suite containers.
-* qunexdevops: storage of Qu|Nex development related code, notes and materials.
+* qunexaccept: acceptance tests for QuNex suite releases.
+* qunexcontainer: code for building QuNex suite containers.
+* qunexdevops: storage of QuNex development related code, notes and materials.
 
-The Qu|Nex code is is co-developed and co-maintained by the:
+The QuNex code is is co-developed and co-maintained by the:
 
 * [Anticevic Lab, Yale University](http://anticeviclab.yale.edu/),
 * [Mind and Brain Lab, University of Ljubljana](http://psy.ff.uni-lj.si/mblab/en),
@@ -21,28 +21,29 @@ Quick links
 -----------
 
 * [Website](http://qunex.yale.edu/)
-* [Qu|Nex Wiki](https://bitbucket.org/oriadev/qunex/wiki/Home)
-* [Qu|Nex SDK Wiki](https://bitbucket.org/oriadev/qunexsdk/wiki/Home)
-* [Qu|Nex quick start](https://bitbucket.org/oriadev/qunex/wiki/Overview/QuickStart.md)
-* [Qu|Nex container deployment](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
+* [QuNex Wiki](https://bitbucket.org/oriadev/qunex/wiki/Home)
+* [QuNex SDK Wiki](https://bitbucket.org/oriadev/qunexsdk/wiki/Home)
+* [QuNex quick start](https://bitbucket.org/oriadev/qunex/wiki/Overview/QuickStart.md)
+* [QuNex container deployment](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
 * [Installing from source and dependencies](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
 
 
 Versioning
 ----------
 
-Latest SDK version: 0.5.10
+Latest SDK version: 0.5.11
 
 Submodule versions:
 
-* qunexaccept: 0.5.13
-* qunexcontainer: 0.62.5
-* qunexdevops: 0.2.8
+* qunexaccept: 0.5.14
+* qunexcontainer: 0.62.6a
+* qunexdevops: 0.2.9
 
 
 Change Log
 ----------
 
+* 0.5.11 [qunexaccept qunexcontainer qunexdevops] More robust acceptance tests algorithm. Removed the latest suffix from QuNex folder structure. Qu|Nex is now QuNex.
 * 0.5.10 [qunexaccept qunexcontainer] New conatiner version, HCYA acceptance test upgrade.
 * 0.5.9 [qunexaccept qunexcontainer] New conatiner version for hcpDiffusion, fixed some typos in documentation.
 * 0.5.8 [qunexaccept] When steps parameter in acceptance tests is set to initial, tests now work properly.
@@ -52,7 +53,7 @@ Change Log
 * 0.5.4 [qunexaccept qunexcontainer] ICAFIx and MSMAll test optimizations, container version update.
 * 0.5.3 [qunexaccept qunexcontainer] Acceptance tests now report repository folder, added CUDA Singularity support in the container.
 * 0.5.2 [qunexaccept] Scheduler jobname now shows wheter we are running with container or not.
-* 0.5.1 [qunexaccept qunexcontainer qunexdevops] Scheduler is now setup the same way as with Qu|Nex, CNP support, FSL 6.0.4, Diffusion support, Optimized order of operations when opening new branches.
+* 0.5.1 [qunexaccept qunexcontainer qunexdevops] Scheduler is now setup the same way as with QuNex, CNP support, FSL 6.0.4, Diffusion support, Optimized order of operations when opening new branches.
 * 0.5.0 [qunexaccept] Major update to the RunTurnkey acceptance testing script, which should now work on all environments.
 * 0.4.3 [qunexaccept qunexcontainer qunexdevops] Added gitignore, qunexaccept cleanup.
 * 0.4.2 [qunexdevops] Optimized opening hotfixes so they auto checkout the hotfix branch on root repository.
