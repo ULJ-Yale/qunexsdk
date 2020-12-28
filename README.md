@@ -31,18 +31,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.11
+Latest SDK version: 0.5.12
 
 Submodule versions:
 
 * qunexaccept: 0.5.14
-* qunexcontainer: 0.62.6a
+* qunexcontainer: 0.62.7
 * qunexdevops: 0.2.9
 
 
 Change Log
 ----------
 
+* 0.5.12 [qunexcontainer] New version of HCP pipelines.
 * 0.5.11 [qunexaccept qunexcontainer qunexdevops] More robust acceptance tests algorithm. Removed the latest suffix from QuNex folder structure. Qu|Nex is now QuNex.
 * 0.5.10 [qunexaccept qunexcontainer] New conatiner version, HCYA acceptance test upgrade.
 * 0.5.9 [qunexaccept qunexcontainer] New conatiner version for hcpDiffusion, fixed some typos in documentation.
