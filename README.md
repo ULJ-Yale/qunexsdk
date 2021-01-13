@@ -31,11 +31,11 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.13
+Latest SDK version: 0.5.14
 
 Submodule versions:
 
-* qunexaccept: 0.5.16
+* qunexaccept: 0.5.17
 * qunexcontainer: 0.62.7a
 * qunexdevops: 0.2.9
 
@@ -43,6 +43,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.5.14 [qunexaccept] Fixed steps in acceptance test for CNP datasets.
 * 0.5.13 [qunexaccept qunexcontainer] One of ATs now runs over 2 sessions, removed unused parameters from test batch files. New version of HCP pipelines.
 * 0.5.12 [qunexcontainer] New version of HCP pipelines.
 * 0.5.11 [qunexaccept qunexcontainer qunexdevops] More robust acceptance tests algorithm. Removed the latest suffix from QuNex folder structure. Qu|Nex is now QuNex.
