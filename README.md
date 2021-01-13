@@ -43,6 +43,7 @@ Submodule versions:
 Change Log
 ----------
 
+* 0.5.15 [qunexaccept] ICAFix acceptance test tweaks.
 * 0.5.14 [qunexaccept] Fixed steps in acceptance test for CNP datasets.
 * 0.5.13 [qunexaccept qunexcontainer] One of ATs now runs over 2 sessions, removed unused parameters from test batch files. New version of HCP pipelines.
 * 0.5.12 [qunexcontainer] New version of HCP pipelines.
