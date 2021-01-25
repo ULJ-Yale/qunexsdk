@@ -54,18 +54,18 @@ Submodule versions:
 * 0.5.3 [qunexaccept qunexcontainer] Acceptance tests now report repository folder, added CUDA Singularity support in the container.
 * 0.5.2 [qunexaccept] Scheduler jobname now shows wheter we are running with container or not.
 * 0.5.1 [qunexaccept qunexcontainer qunexdevops] Scheduler is now setup the same way as with QuNex, CNP support, FSL 6.0.4, Diffusion support, Optimized order of operations when opening new branches.
-* 0.5.0 [qunexaccept] Major update to the RunTurnkey acceptance testing script, which should now work on all environments.
+* 0.5.0 [qunexaccept] Major update to the test_run_turnkey script, which should now work on all environments.
 * 0.4.3 [qunexaccept qunexcontainer qunexdevops] Added gitignore, qunexaccept cleanup.
 * 0.4.2 [qunexdevops] Optimized opening hotfixes so they auto checkout the hotfix branch on root repository.
 * 0.4.1 [qunexaccept] Added all and noT2w acceptance test variants for hcpls data.
 * 0.4.0 [qunexaccept] Updated all acceptance test because of the subject to session rename.
-* 0.3.3 [qunexaccept] test_runturnkey now enables execution of single commands.
+* 0.3.3 [qunexaccept] test_run_turnkey now enables execution of single commands.
 * 0.3.2 [qunexaccept qunexcontainer qunexdevops] READNE updates.
 * 0.3.1 [qunexaccept qunexcontainer qunexdevops] License updates.
 * 0.3.0 [qunexaccept qunexcontainer qunexdevops] Major rework of acceptance testing scripts, new container release, fixed a bug in hotfix opening.
 * 0.2.8 [qunexcontainer] New container release.
 * 0.2.7 [qunexaccept] Cores and threads rename to parsessions and parelements.
-* 0.2.6 [qunexaccept] Upgraded automated RunTurnkey tests and added MSMAll test to stepwise testing script.
+* 0.2.6 [qunexaccept] Upgraded automated test_run_turnkey and added MSMAll test to stepwise testing script.
 * 0.2.5 [qunexdevops] Releases are now based on the develop branch not master.
 * 0.2.4 [qunexdevops] Added scripts for openning new SDK features and hotfixes and suite releases.
 * 0.2.3 [qunexaccept] Acceptance tests for HCP MSMAll pipelines and a unit test for hcp_suffix.
