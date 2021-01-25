@@ -6,6 +6,7 @@ teams developing the QuNex suite and to kickstart researchers interested in
 integrating their own pipelines into QuNex.
 
 The repository consists of three submodules:
+
 * qunexaccept: acceptance tests for QuNex suite releases.
 * qunexcontainer: code for building QuNex suite containers.
 * qunexdevops: storage of QuNex development related code, notes and materials.
@@ -17,8 +18,7 @@ The QuNex code is is co-developed and co-maintained by the:
 * [Murray Lab, Yale University](https://medicine.yale.edu/lab/murray/).
 
 
-Quick links
------------
+## Quick links
 
 * [Website](http://qunex.yale.edu/)
 * [QuNex Wiki](https://bitbucket.org/oriadev/qunex/wiki/Home)
@@ -28,8 +28,7 @@ Quick links
 * [Installing from source and dependencies](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
 
 
-Versioning
-----------
+## Versioning
 
 Latest SDK version: 0.9.0
 
@@ -40,8 +39,7 @@ Submodule versions:
 * qunexdevops: 0.9.0
 
 
-Change Log
-----------
+## Change Log
 
 * 0.9.0  [qunexaccept qunexcontainer qunexdevops] Code restructuring.
 * 0.5.15 [qunexaccept] ICAFix acceptance test tweaks.
