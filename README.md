@@ -31,18 +31,19 @@ Quick links
 Versioning
 ----------
 
-Latest SDK version: 0.5.14
+Latest SDK version: 0.9.0
 
 Submodule versions:
 
-* qunexaccept: 0.5.17
-* qunexcontainer: 0.62.7a
-* qunexdevops: 0.2.9
+* qunexaccept: 0.9.0
+* qunexcontainer: 0.9.0
+* qunexdevops: 0.9.0
 
 
 Change Log
 ----------
 
+* 0.9.0  [qunexaccept qunexcontainer qunexdevops] Code restructuring.
 * 0.5.15 [qunexaccept] ICAFix acceptance test tweaks.
 * 0.5.14 [qunexaccept] Fixed steps in acceptance test for CNP datasets.
 * 0.5.13 [qunexaccept qunexcontainer] One of ATs now runs over 2 sessions, removed unused parameters from test batch files. New version of HCP pipelines.
@@ -63,7 +64,7 @@ Change Log
 * 0.4.2 [qunexdevops] Optimized opening hotfixes so they auto checkout the hotfix branch on root repository.
 * 0.4.1 [qunexaccept] Added all and noT2w acceptance test variants for hcpls data.
 * 0.4.0 [qunexaccept] Updated all acceptance test because of the subject to session rename.
-* 0.3.3 [qunexaccept] TestRunTurnkey now enables execution of single commands.
+* 0.3.3 [qunexaccept] test_runturnkey now enables execution of single commands.
 * 0.3.2 [qunexaccept qunexcontainer qunexdevops] READNE updates.
 * 0.3.1 [qunexaccept qunexcontainer qunexdevops] License updates.
 * 0.3.0 [qunexaccept qunexcontainer qunexdevops] Major rework of acceptance testing scripts, new container release, fixed a bug in hotfix opening.
