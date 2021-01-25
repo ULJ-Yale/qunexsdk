@@ -30,18 +30,18 @@ The QuNex code is is co-developed and co-maintained by the:
 
 ## Versioning
 
-Latest SDK version: 0.9.0
+Latest SDK version: 0.90.0
 
 Submodule versions:
 
-* qunexaccept: 0.9.0
-* qunexcontainer: 0.9.0
-* qunexdevops: 0.9.0
+* qunexaccept: 0.90.0
+* qunexcontainer: 0.90.0
+* qunexdevops: 0.90.0
 
 
 ## Change Log
 
-* 0.9.0  [qunexaccept qunexcontainer qunexdevops] Code restructuring.
+* 0.90.0 [qunexaccept qunexcontainer qunexdevops] Code restructuring.
 * 0.5.15 [qunexaccept] ICAFix acceptance test tweaks.
 * 0.5.14 [qunexaccept] Fixed steps in acceptance test for CNP datasets.
 * 0.5.13 [qunexaccept qunexcontainer] One of ATs now runs over 2 sessions, removed unused parameters from test batch files. New version of HCP pipelines.
