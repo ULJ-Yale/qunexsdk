@@ -17,7 +17,6 @@ The QuNex code is is co-developed and co-maintained by the:
 * [Mind and Brain Lab, University of Ljubljana](http://psy.ff.uni-lj.si/mblab/en),
 * [Murray Lab, Yale University](https://medicine.yale.edu/lab/murray/).
 
-
 ## Quick links
 
 * [Website](http://qunex.yale.edu/)
@@ -26,7 +25,6 @@ The QuNex code is is co-developed and co-maintained by the:
 * [QuNex quick start](https://bitbucket.org/oriadev/qunex/wiki/Overview/QuickStart.md)
 * [QuNex container deployment](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
 * [Installing from source and dependencies](https://bitbucket.org/oriadev/qunex/wiki/Overview/Installation.md)
-
 
 ## Versioning
 
@@ -37,7 +35,6 @@ Submodule versions:
 * qunexaccept: 0.90.0
 * qunexcontainer: 0.90.0
 * qunexdevops: 0.90.0
-
 
 ## Change Log
 
@@ -76,7 +73,7 @@ Submodule versions:
 * 0.2.1 [qunexaccept qunexdevops] Opening a hotfix now stores the environment in the correct environment.txt, removed a typo from the HCPLS_StepwiseTests.sh.
 * 0.2.0 [qunexaccept] Complete rework of the acceptance tests repository.
 * 0.1.6 [qunexdevops qunexcontainer] Added openhotfix script and integrated ICAFix into the container.
-* 0.1.5 [qunexdevops] Adjustments for GitFlow 
+* 0.1.5 [qunexdevops] Adjustments for GitFlow.
 * 0.1.4 [qunexdevops] Fixed a bug in status reporting
 * 0.1.3 [qunexdevops] Added updated script for creation of own clone and branch
 * 0.1.2 [qunexdevops] Adjusted scripts and add one to create new environment
