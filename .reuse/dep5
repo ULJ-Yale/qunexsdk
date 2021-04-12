@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: QuNex software development kit
+Upstream-Contact: Jure Demšar <jure.demsar@fri.uni-lj.si>
+Source: https://qunex.yale.edu/
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
