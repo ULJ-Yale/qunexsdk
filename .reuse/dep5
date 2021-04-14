@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: QuNex software development kit
-Upstream-Contact: Jure Demšar <jure.demsar@fri.uni-lj.si>
+Upstream-Name: QuNex Software Development Kit
+Upstream-Contact: 2021 QuNex development team <https://qunex.yale.edu/>
 Source: https://qunex.yale.edu/
 
 # Sample paragraph, commented out:

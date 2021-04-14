@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: 2021 Jure Demšar <jure.demsar@fri.uni-lj.si>
+SPDX-FileCopyrightText: 2021 QuNex development team <https://qunex.yale.edu/>
 
 SPDX-License-Identifier: GPL-3.0-or-later
 -->
