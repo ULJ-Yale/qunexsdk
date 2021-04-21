@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2021 QuNex development team <https://qunex.yale.edu/>
+
+SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 # README file for Quantitative Neuroimaging Environment & ToolboX SDK (QuNex SDK)
 
 This repository contains the software development kit (SDK) for the QuNex suite.
