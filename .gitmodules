@@ -4,10 +4,10 @@
 
 [submodule "qunexaccept"]
 	path = qunexaccept
-	url = git@bitbucket.org:oriadev/qunexaccept.git
+	url = ../qunexaccept
 [submodule "qunexdevops"]
 	path = qunexdevops
-	url = git@bitbucket.org:oriadev/qunexdevops.git
-[submodule "qunexcontainer"]
-	path = qunexcontainer
-	url = git@bitbucket.org:oriadev/qunexcontainer.git
+	url = ../qunexdevops
+[submodule "qunexdocker"]
+        path = qunexdocker
+	url = ../qunexdocker
