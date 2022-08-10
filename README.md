@@ -33,10 +33,10 @@ The QuNex code is is co-developed and co-maintained by the:
 
 ## Versioning
 
-Latest SDK version: 0.90.12
+Latest SDK version: 0.90.13
 
 Submodule versions:
 
-* qunexaccept: 0.90.13
-* qunexcontainer: 0.94.3
-* qunexdevops: 0.90.7
+* qunexaccept: 0.90.14
+* qunexcontainer: 0.94.5
+* qunexdevops: 0.90.8
