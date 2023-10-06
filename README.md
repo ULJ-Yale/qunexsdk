@@ -37,6 +37,6 @@ Latest SDK version: 0.91.1
 
 Submodule versions:
 
-* qunexaccept: 0.92.0
-* qunexdocker: 0.98.2
+* qunexaccept: 0.92.1
+* qunexdocker: 0.98.6a
 * qunexdevops: 0.91.0
