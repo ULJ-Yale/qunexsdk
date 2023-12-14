@@ -5,9 +5,12 @@
 [submodule "qunexaccept"]
 	path = qunexaccept
 	url = ../qunexaccept
+	ignore = all
 [submodule "qunexdevops"]
 	path = qunexdevops
 	url = ../qunexdevops
+	ignore = all
 [submodule "qunexdocker"]
-        path = qunexdocker
+	path = qunexdocker
 	url = ../qunexdocker
+	ignore = all
