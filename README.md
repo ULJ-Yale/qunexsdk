@@ -20,8 +20,8 @@ The repository consists of three submodules:
 The QuNex code is is co-developed and co-maintained by the:
 
 * [Anticevic Lab, Yale University](http://anticeviclab.yale.edu),
-* [Mind and Brain Lab, University of Ljubljana](http://psy.ff.uni-lj.si/mblab/en),
-* [Murray Lab, Dartmouth University](https://murraylab.org).
+* [Mind and Brain Lab, University of Ljubljana](https://mblab.si),
+* [Murray Lab, Dartmouth College](https://murraylab.org).
 
 ## Quick links
 
