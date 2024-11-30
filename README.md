@@ -17,11 +17,15 @@ The repository consists of three submodules:
 * qunexcontainer: code for building QuNex suite containers.
 * qunexdevops: storage of QuNex development related code, notes and materials.
 
-The QuNex code is is co-developed and co-maintained by the:
+The QuNex code is co-developed and co-maintained by the:
 
-* [Anticevic Lab, Yale University](http://anticeviclab.yale.edu),
 * [Mind and Brain Lab, University of Ljubljana](https://mblab.si),
-* [Murray Lab, Dartmouth College](https://murraylab.org).
+* [Cho Lab, Yale University](https://medicine.yale.edu/lab/cho/).
+
+Past contributors to the QuNex code:
+
+* Anticevic Lab, Yale University,
+* Murray Lab, Dartmouth College.
 
 ## Quick links
 
