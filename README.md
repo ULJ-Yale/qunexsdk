@@ -34,13 +34,3 @@ Past contributors to the QuNex code:
 * [QuNex quick start](https://qunex.readthedocs.io/en/latest/wiki/Overview/QuickStart.html)
 * [QuNex container deployment](https://qunex.readthedocs.io/en/latest/wiki/Overview/Installation.html)
 * [Installing from source and dependencies](https://qunex.readthedocs.io/en/latest/wiki/Overview/Installation.html)
-
-## Versioning
-
-Latest SDK version: 1.0.0 [QIO]
-
-Submodule versions:
-
-* qunexaccept: 1.0.0 [QIO]
-* qunexdocker: 1.0.0 [QIO]
-* qunexdevops: 1.0.0 [QIO]
