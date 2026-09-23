@@ -26,11 +26,3 @@ Past contributors to the QuNex code:
 
 * Anticevic Lab, Yale University,
 * Murray Lab, Dartmouth College.
-
-## Quick links
-
-* [Website](http://qunex.yale.edu/)
-* [QuNex Documentation](https://qunex.readthedocs.io/)
-* [QuNex quick start](https://qunex.readthedocs.io/en/latest/wiki/Overview/QuickStart.html)
-* [QuNex container deployment](https://qunex.readthedocs.io/en/latest/wiki/Overview/Installation.html)
-* [Installing from source and dependencies](https://qunex.readthedocs.io/en/latest/wiki/Overview/Installation.html)
